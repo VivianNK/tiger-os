@@ -4,17 +4,10 @@ import java.sql.Timestamp;
 
 import static tools.RandomString.getAlphaNumericString;
 
-import org.bson.codecs.pojo.annotations.BsonProperty;
 import org.bson.types.ObjectId;
 
 import java.util.List;
 import java.util.Objects;
-
-    private ObjectId id;
-    @BsonProperty(value = "student_id")
-    private Double studentId;
-    @BsonProperty(value = "class_id")
-    private Double classId;
 
 public class Walk {
 
