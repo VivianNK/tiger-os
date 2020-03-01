@@ -1,15 +1,15 @@
 package tools;
 
-/*
- Java program generate a random AlphaNumeric String
- using Math.random() method
+/**
+ * Java program generate a random AlphaNumeric String
+ * using Math.random() method
  */
 
 
 public class RandomString {
 
     // function to generate a random string of length n
-    static String getAlphaNumericString(int n)
+    public static String getAlphaNumericString(int n)
     {
 
         // chose a Character random from this String

@@ -2,6 +2,8 @@ package model;
 
 import java.sql.Timestamp;
 
+import static tools.RandomString.getAlphaNumericString;
+
 public class Walk {
 
     private String walkId;
@@ -19,7 +21,7 @@ public class Walk {
 
 
     public Walk(User user, Timestamp start_timestamp, double[] start_location){
-        this.walkId =
+        this.walkId = getAlphaNumericString(8);
         this.user = user;
         this.startTimestamp = start_timestamp;
         this.startLocation = start_location;
